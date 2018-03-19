@@ -31,3 +31,9 @@ On ubuntu machine -> git clone
 2. node app.js
 
 
+### First time 
+When executing merchant or payer apps , new accounts will be created and funded with 100 XMR on Stellar testnet.
+public and private key files will be automatic generated 
+1. ./public.key
+2. ./secret.key
+
