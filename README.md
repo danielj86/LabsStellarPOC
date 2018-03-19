@@ -11,24 +11,32 @@
 6. Merchant server that is listening for incoming requests recieve the transaction and validate its CRC-32 hash.
 
 
+
+
 ## Projects:
 1. **Payer client** - nodejs app.  send a json payment request for merchant and emits an asset transfer trasaction to Stellar public ledger.
 2. **Merchant server** - nodejs webserver. Recieve requests from Payer clients,Listen to incoming Stellar transactions and validate.
+
+
 
 
 ## Usage
 
 On ubuntu machine -> git clone
 
+
 ### Start Merchant server
 
 1. npm install
 2. node app.js
 
+
 ### Start payer client
 
 1. npm install
 2. node app.js
+
+
 
 
 ### First execution 
